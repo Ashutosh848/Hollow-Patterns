@@ -1,0 +1,305 @@
+Ans 1) #include<stdio.h>
+int main(){
+    int n = 5;
+    int r,c;
+    
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=5;c++){
+            if(r==1||r==5||c==1||c==5){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+*****
+*   *
+*   *
+*   *
+*****
+
+Ans 2)  #include<stdio.h>
+int main(){
+    int n = 5;
+    int r,c;
+    
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=5;c++){
+            if(r==1||r==3||r==5||c==1||c==5){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+
+Ans 3)  #include<stdio.h>
+int main(){
+    int n = 5;
+    int r,c;
+    
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=5;c++){
+            if(r==1||r==5||c==1){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+
+
+*****
+*
+*
+*
+*****
+
+
+Ans 4)  #include<stdio.h>
+int main(){
+    int n = 5;
+    int r,c;
+    
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=5;c++){
+            if(r==1||r==3||c==1){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+*****
+*
+*****
+*
+*
+
+
+Ans 5)   #include<stdio.h>
+int main(){
+    int n = 5;
+    int r,c;
+    
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=5;c++){
+            if(r==1||r==5||r==3||c==1){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}  
+
+*****
+*
+*****
+*
+*****
+
+Ans 6)   #include<stdio.h>
+int main(){
+    int n = 5;
+    int r,c;
+    
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=5;c++){
+            if(c==1||c==5||r==3){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+
+
+*   *
+*   *
+*****
+*   *
+*   *
+
+
+Ans 7)    #include<stdio.h>
+int main(){
+    int n = 5;
+    int r,c;
+    
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=5;c++){
+            if(r==1||c==3||r==5){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}  
+
+
+*****
+  *
+  *
+  *
+*****
+
+
+Ans 8)    #include<stdio.h>
+int main(){
+    int n = 5;
+    int r,c;
+    
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=5;c++){
+            if(r==5||c==1){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+
+
+*
+*
+*
+*
+*****
+
+
+Ans 10)  #include<stdio.h>
+int main(){
+    int n = 5;
+    int r,c;
+    
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=5;c++){
+            if(r==1||c==3){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+
+*****
+  *
+  *
+  * 
+  *
+
+
+Ans 11)   #include<stdio.h>
+int main(){
+    int n = 5;
+    int r,c;
+    
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=5;c++){
+            if(r==5||c==1||c==5){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}  
+
+
+
+*   *
+*   *
+*   *
+*   *
+*****
+
+
+Ans 12)   	#include<stdio.h>
+int main(){
+    int r,c;
+    int n = 5;
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=n;c++){
+            if(r==1||r==5||c==n+1-r){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+
+*****
+   *
+  *
+ *
+***** 
+
+Ans 13)   #include<stdio.h>
+int main(){
+    int r,c;
+    int n = 5;
+    
+    for(r=1;r<=n;r++){
+        for(c=1;c<=n;c++){
+            if(c==n+1-r||c==n-5+r){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+
+
+* *
+* *
+ *
+* *
+* *
+
+Ans 14)    
+
